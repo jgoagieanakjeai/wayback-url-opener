@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 400px;
+      padding: 20px;
+      background: #1a1a1a;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      justify-content: space-between;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #333;
+    }
+    .logo-title {
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      width: 32px;
+      height: 32px;
+      margin-right: 12px;
+    }
+    .title {
+      font-size: 18px;
+      color: #fff;
+      font-weight: 600;
+    }
+    .author {
+      font-size: 14px;
+      color: #888;
+    }
+    textarea {
+      width: 95%;
+      height: 200px;
+      margin-bottom: 15px;
+      padding: 12px;
+      background: #2a2a2a;
+      border: 1px solid #333;
+      border-radius: 6px;
+      color: #fff;
+      font-family: inherit;
+      resize: none;
+    }
+    textarea:focus {
+      outline: none;
+      border-color: #4a9eff;
+    }
+    textarea::placeholder {
+      color: #666;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    button {
+      padding: 10px 24px;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-weight: 600;
+      background: linear-gradient(to right, #5a5858, #757475);
+      transition: transform 0.2s;
+    }
+    button:hover {
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo-title">
+      <img src="icons/icon48.png" alt="Wayback Machine" class="logo">
+      <span class="title">Wayback URL Opener</span>
+    </div>
+    <span class="author">by defalt-47</span>
+  </div>
+  <textarea id="urlInput" placeholder="Paste URLs (one per line)"></textarea>
+  <div class="footer">
+    <button id="goButton">Open URLs</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
