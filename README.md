@@ -23,7 +23,7 @@ Since Chrome requires a fee for publishing extensions, you can install the exten
 
 #### Steps to Install Locally:
 1. **Download the Source Code**:
-   - Clone or download this repository as a ZIP file.
+   - Download the extension from the [release](https://github.com/jgoagieanakjeai/wayback-url-opener/releases/tag/release) page.
    - Extract the ZIP file to a folder on your computer.
 
 2. **Enable Developer Mode**:
